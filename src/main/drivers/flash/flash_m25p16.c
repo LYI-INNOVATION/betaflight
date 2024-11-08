@@ -133,6 +133,9 @@ struct {
     // BergMicro W25Q32
     // Datasheet: https://www.winbond.com/resource-files/w25q32jv%20dtr%20revf%2002242017.pdf?__locale=zh_TW
     { 0xE04016, 133, 50, 1024, 16 },
+    // BIWIN BW25Q128A
+    // Datasheet: https://mp.weixin.qq.com/s/LNNjDaSyGYaDpN-nQhm_Zg
+    { 0x944018, 80, 54, 256, 256},
     // End of list
     { 0x000000, 0, 0, 0, 0 }
 };
